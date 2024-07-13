@@ -1,0 +1,144 @@
+/* الشروط العامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl; /* لتنسيق النصوص بالعربية */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* العنوان */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* الشريط الرئيسي */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e5533d;
+}
+
+/* قسم المزايا */
+.features {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+.features img {
+    width: 100px;
+    height: 100px;
+}
+
+/* قسم المنتجات */
+.products {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-list .product {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2.5%;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+/* قسم الشهادات */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    width: 45%;
+    margin: 0 2.5%;
+    display: inline-block;
+    text-align: left;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+/* الشريط الترويجي */
+.promotional-banner {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* الشريط السفلي */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
